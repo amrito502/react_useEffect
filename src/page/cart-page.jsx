@@ -1,12 +1,13 @@
 import React from 'react';
 import Layout from '../layout/Layout';
+import CartList from '../components/CartList';
 
-function ProductList() {
+function CartPage() {
   return (
     <Layout>
-     
+      <CartList/>
     </Layout>
   );
 }
 
-export default ProductList;
+export default CartPage;
